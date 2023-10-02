@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KFC PAKISTAN</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/jpeg;base64,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"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link fa <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <div class="icon">
+          <div class="bi bi-list"></div>
+        </div>
+        <div class="logo">
+          <img
+            width:50px;
+            src="data:image/png;base64,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"
+          />
+        </div>
+        <div class="delivery">
+          <div class="d-image">
+            <img
+              width="50px"
+              src="https://www.kfcpakistan.com/static/media/Delivery.793adbaa710baf75ba78.png"
+            />
+          </div>
+          <div class="d-text">
+            <h6>delivery</h6>
+          </div>
+        </div>
+        <div class="pickup">
+          <div class="p-image">
+            <img
+              width="50px"
+              src="https://www.kfcpakistan.com/static/media/pickup.47bb874f83ea6acb5a47.png"
+            />
+          </div>
+
+          <div class="d-text">
+            <h6>pickup</h6>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="bucket">
+          <img
+            width="80px"
+            src="https://www.kfcpakistan.com/static/media/bucket-filled.d2ad11819eca0f28a8ac.svg"
+          />
+          <div class="quantity">0</div>
+        </div>
+
+        <button class="btn">login</button>
+      </div>
+    </nav>
+    <div class="front-page"></div>
+    <button class="reorder">Reorder</button>
+
+    <!-- "PART - 01 EXPLORE MENU" -->
+    <div class="explore-menu">
+      <h2>EXPLORE MENU</h2>
+      <hr />
+      <div class="items">
+        <div class="card">
+          <img
+            src="https://www.kfcpakistan.com/images/afc4e8b0-ff99-11ed-8640-872ee63b5da0-Krunch-2023-05-31095826.png"
+          />
+          <h6>Everyday Value</h6>
+          <hr />
+          <div class="dot"></div>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.kfcpakistan.com/images/afc4e8b0-ff99-11ed-8640-872ee63b5da0-alacart-2023-05-31095826.png"
+          />
+          <h6>Ala-Carte-Combos</h6>
+          <hr />
+          <div class="dot"></div>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.kfcpakistan.com/images/afc536d0-ff99-11ed-a006-17c81341cbe8-Signaturebox-2023-05-31095826.png"
+          />
+          <h6>Signature-Boxes</h6>
+          <hr />
+          <div class="dot"></div>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.kfcpakistan.com/images/afc4e8b0-ff99-11ed-8640-872ee63b5da0-Sharing-2023-05-31095826.png"
+          />
+          <h6>Sharing</h6>
+          <hr />
+          <div class="dot"></div>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.kfcpakistan.com/images/afc4e8b0-ff99-11ed-8640-872ee63b5da0-Snacks-2023-05-31095826.png"
+          />
+          <h6>Snacks-&-Beverage</h6>
+          <hr />
+          <div class="dot"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- *PART-02 BEST SELLERS* -->
+    <div class="best-sellers">
+      <h2>BEST SELLERS</h2>
+      <hr />
+      <div class="rectangle-deal">
+        <div class="best-meal">
+          <div class="bars">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+          </div>
+          <div class="burger-height"><h5>Krunch Burger</h5></div>
+          <div class="price">
+            <h6>Rs.270</h6>
+          </div>
+          <img
+            width="100%"
+            src="https://www.kfcpakistan.com/images/43a9fb50-ffaa-11ed-8180-812e571998fe-krunch_variant_0-2023-05-31115706.png"
+          />
+        </div>
+        <div class="best-meal">
+          <div class="bars">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+          </div>
+          <div class="burger-height"><h5>Mighty Zinger</h5></div>
+          <div class="price">
+            <h6>Rs.700</h6>
+          </div>
+          <img
+            width="100%"
+            src="https://www.kfcpakistan.com/images/33685b40-0461-11ee-911c-497570899609-Mighty_variant_0-2023-06-06115641.png"
+          />
+        </div>
+        <div class="best-meal">
+          <div class="bars">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+          </div>
+          <div class="burger-height"><h5>Hot Wings Bucket</h5></div>
+          <div class="price">
+            <h6>Rs.610</h6>
+          </div>
+          <img
+            width="100%"
+            src="https://www.kfcpakistan.com/images/43a9fb50-ffaa-11ed-8180-812e571998fe-HotWings_variant_0-2023-05-31115706.png"
+          />
+        </div>
+        <div class="best-meal">
+          <div class="bars">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+          </div>
+          <div class="burger-height"><h5>Krunch Combo</h5></div>
+          <div class="price">
+            <h6>Rs.520</h6>
+          </div>
+          <img
+            width="100%"
+            src="https://www.kfcpakistan.com/images/43a9fb50-ffaa-11ed-8180-812e571998fe-crunch-with-fries-and-drink-2023-05-31115706.png"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="heart">
+      <i class="bi bi-heart"></i>
+    </div>
+
+    <!-- *PART - 03 TOP DEALS* -->
+    <div class="top-deals">
+      <h2>TOP DEALS</h2>
+      <hr />
+
+      <div class="top-menu-deals">
+        <div class="top-rectangle">
+          <div class="bars">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+          </div>
+          <div class="heart">
+            <i class="bi bi-heart"></i>
+          </div>
+          <div class="top-img">
+            <img
+              width="200px"
+              src="https://www.kfcpakistan.com/images/43a95f10-ffaa-11ed-b673-4121381f04c6-CrispyDuoBox-2023-05-31115706.png"
+            />
+          </div>
+          <h6>Crispy Duo Box</h6>
+          <p>
+            Turn up the fun with 5 pcs Hot & Crispy Chicken + 1 Large fries +2
+            Regular drinks
+          </p>
+          <h6>Rs 1250</h6>
+
+          <button class="add">+ ADD TO BUCKET</button>
+        </div>
+
+        <div class="top-rectangle">
+          <div class="bars">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+          </div>
+          <div class="heart">
+            <i class="bi bi-heart"></i>
+          </div>
+          <img
+            width="200px"
+            src="https://www.kfcpakistan.com/images/43a98620-ffaa-11ed-b6b3-6970cc1cd666-zingerstack-Combo-2023-05-31115706.png"
+          />
+          <h6>Crispy Duo Box</h6>
+          <p>
+            Turn up the fun with 5 pcs Hot & Crispy Chicken + 1 Large fries +2
+            Regular drinks
+          </p>
+          <h6>Rs 850</h6>
+
+          <button class="add">+ ADD TO BUCKET</button>
+        </div>
+
+        <div class="top-rectangle">
+          <div class="bars">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+          </div>
+          <div class="heart">
+            <i class="bi bi-heart"></i>
+          </div>
+          <img
+            width="200px"
+            src="https://www.kfcpakistan.com/images/43a9fb50-ffaa-11ed-8180-812e571998fe-twister-combo-2023-05-31115706.png"
+          />
+          <h6>Crispy Duo Box</h6>
+          <p>
+            Turn up the fun with 5 pcs Hot & Crispy Chicken + 1 Large fries +2
+            Regular drinks
+          </p>
+          <h6>Rs 670</h6>
+
+          <button class="add">+ ADD TO BUCKET</button>
+        </div>
+        <div class="top-rectangle">
+          <div class="bars">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+          </div>
+          <div class="heart">
+            <i class="bi bi-heart"></i>
+          </div>
+          <img
+            width="200px"
+            src="https://www.kfcpakistan.com/images/43a9fb50-ffaa-11ed-8180-812e571998fe-family-Festivle-3-2023-05-31115706.png"
+          />
+          <h6>Crispy Duo Box</h6>
+          <p>
+            Turn up the fun with 5 pcs Hot & Crispy Chicken + 1 Large fries +2
+            Regular drinks
+          </p>
+          <h6>Rs 2450</h6>
+
+          <button class="add">+ ADD TO BUCKET</button>
+        </div>
+      </div>
+    </div>
+    <!-- "IMAGES" -->
+    <div class="kfc-images">
+      <div class="pic-1">
+        <img
+          width="500px"
+          src="https://www.kfcpakistan.com/static/media/pickup-banner.01fde5a7db5ef06f7bce.png"
+        />
+      </div>
+      <div class="pic-2">
+        <img
+          width="500px"
+          src="https://www.kfcpakistan.com/static/media/favorites-banner.afff26bc6d0127f68baa.png"
+        />
+      </div>
+    </div>
+    <div class="kfc-boxes">
+      <div class="pic-3">
+        <img
+          width="500px"
+          src="https://www.kfcpakistan.com/static/media/scamOrdr.6f809bf83912dd8dbe31.jpg"
+        />
+      </div>
+      <div class="bottom-menu" style="width: 500px">
+        <img
+          src="https://www.kfcpakistan.com/static/media/kfc-meal.afc417f5d19998efd26b.png"
+        />
+
+        <div class="hkfc">
+          <h5 style="width: 500px">
+            Adding 11 herbs and spices, Explore our menu and add items to your
+            cart.
+          </h5>
+        </div>
+        <div class="kfc-buns">
+          <button class="more-explore">EXPLORE MENU</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- "FOOTER BAR" -->
+    <footer>
+      <div class="startfooter">
+        <div class="logofooter">
+          <img
+            src="data:image/png;base64,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"
+          />
+        </div>
+        <div class="socialmediaicons">
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-facebook"></i>
+        </div>
+      </div>
+      <div class="middlefooter" style="margin-top: 20px">
+        <div class="mlinks1">
+          <ul style="list-style: none">
+            <li><a href="#"> About Us</a></li>
+            <li><a href="#"> Mitao Bhook</a></li>
+            <li><a href="#"> Mitao Bhook - Scholarship</a></li>
+            <li><a href="#"> Privacy Policy</a></li>
+            <li><a href="#"> Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="mlinks2">
+          <ul style="list-style: none">
+            <li><a href="#"> Contact Us</a></li>
+            <li><a href="#"> Store Locator</a></li>
+            <li><a href="#"> Track Order</a></li>
+          </ul>
+        </div>
+
+        <div class="mlinks3">
+          <ul style="list-style: none">
+            <li><a href="#"> Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="mlinks4">
+          <img
+            width="110px"
+            src="data:image/png;base64,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"
+          />
+          <img
+            width="110px"
+            src="data:image/png;base64,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"
+          />
+        </div>
+      </div>
+      <div class="endfooter">
+        <div class="copyright">
+          <h6>2023 KFC. All rights reserved</h6>
+        </div>
+        <div class="powered-by">
+          <div class="by">
+            <h6>Powered by</h6>
+          </div>
+          <a href="#">SimpleX Technology Solutions</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
